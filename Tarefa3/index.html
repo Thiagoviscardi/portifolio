@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div id="flex-container">
+		<div id="branco">
+			<div onmouseover="muda(this)" onmouseout="volta(this)" id="div1" class="divs">
+				<img src="img/device.svg">
+				<p class="titulos">MOBILE</p>
+				<p class="paragrafos texto1">Get notifications about new releases in our mobile app.</p>
+				<p class="precos">$<span class="span-precos">10</span><span class="span-month"> / month</span></p>
+			</div>
+
+			<div onmouseover="muda(this)" onmouseout="volta(this)"id="div2" class="divs">
+				<img src="img/laptop.svg">
+				<p class="titulos">DESKTOP</p>
+				<p class="paragrafos texto2">Enjoy new episodes on your laptop in browser with our we service, which supports all the platforms.</p>
+				<p class="precos">$<span class="span-precos">15</span><span class="span-month"> / month</span></p>
+			</div>
+
+			<div onmouseover="muda(this)" onmouseout="volta(this)" id="div3" class="divs">
+				<img src="img/monitor.svg">
+				<p class="titulos">TV</p>
+				<p class="paragrafos texto3">Watch your favorites series at home on large screen with our TV application.</p>
+				<p class="precos">$<span class="span-precos">20</span><span class="span-month"> / month</span></p>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		function muda(x){
+			x.style.backgroundColor="#f9f9f9";
+			
+		}
+		function volta(x){
+			x.style.backgroundColor="white";
+			
+		}
+	</script>
+	
+</body>
+</html>

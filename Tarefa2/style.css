@@ -1,0 +1,60 @@
+#IDenviar {
+  display: none;
+}
+
+.div {
+	display: flex;
+	 justify-content: center;
+}
+.numeroenome {
+	margin-right: 100px;
+}
+.valor {
+
+}
+#imagem1 {
+  margin-top: 10px;
+  width:100%; 
+  max-width:295px;
+  height: 83px;
+}
+
+#imagem2 {
+  max-width:260px;
+  width:100%;
+  height: 18px; 
+}
+#campo {
+  border-color: green;
+   border-radius: 20px;
+   padding-right: 25px;
+   padding-left: 25px;
+   font-size: 20px;
+   font-style: italic;
+}
+
+/*usando os teus seletores sem div Augusto ;)*/
+div:first-child { 
+  margin-bottom: 5%;
+}
+div:nth-child(2) { 
+  margin-bottom: 2%;
+}
+div:nth-child(3) { 
+  display: flex;
+  justify-content: center;
+}
+div:nth-child(5) { 
+  display: flex;
+  justify-content: center;
+}
+div:nth-child(6) { 
+  padding-right: 15px;
+  display: flex;
+  justify-content: center;
+}
+div:nth-child(7) {
+  padding-right: 15px; 
+  display: flex;
+  justify-content: center;
+}
